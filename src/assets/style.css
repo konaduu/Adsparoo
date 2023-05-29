@@ -1,9 +1,110 @@
+:root {
+  --color-primary: #272b64;
+  --color-secondary: #FF6000;
+  --color-danger: #ff7782;
+  --color-success: #41f1b6;
+  --color-warning: #ffbb55;
+  --color-info-light: #dce1eb;
+  --color-info-dark: #7d8da1;
+  --color-dark: #363949;
+  --color-white: #f5f5f5;
+  --color-primary-variant: #6e719f;
+  --color-dark-variant: #677483;
+  --color-background: #f6f6f9;
+  --color-light: rgb(132, 139, 200, 0.18);
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  --card-border-radius: 2rem;
+  --border-radius-sm: 0.4rem;
+  --border-radius-md: 0.8rem;
+  --border-radius-lg: 1.2rem;
+
+  --card-padding: 1.8rem;
+  --padding-sm: 1.2rem;
+
+  --box-shadow: 0 2rem 3rem var(--color-light);
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0;
+  border: 0;
+  appearance: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-size: 0.88rem;
+  background: var(--color-background);
+  user-select: none;
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 0.87rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+
+h4 {
+  font-size: 0.77rem;
+}
+
+small {
+  font-size: 0.75rem;
+}
+
+.profile-photo {
+  width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  overflow: hidden;
 }
 
 
+.text-muted {
+  color: var(--color-info-dark);
+}
+
+p {
+  color: var(--color-dark-variant);
+}
+
+b {
+  color: var(--color-dark);
+}
+
+.danger {
+  color: var(--color-danger);
+}
+.success {
+  color: var(--color-success);
+}
+
+.primary {
+  color: var(--color-primary);
+}
+
+.warning {
+  color: var(--color-warning);
+}

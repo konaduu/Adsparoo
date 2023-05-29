@@ -8,7 +8,6 @@ import { SettingsComponent } from './components/admin/settings/settings.componen
 import { TablesComponent } from './components/admin/tables/tables.component';
 import { ForgotPasswordComponent } from './components/auth/forgot-password/forgot-password.component';
 import { ResetPasswordComponent } from './components/auth/reset-password/reset-password.component';
-import { RegisterComponent } from './components/auth/register/register.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { FooterComponent } from './views/footer/footer.component';
 import { HeaderComponent } from './views/header/header.component';
@@ -21,6 +20,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
 import {MatIconModule} from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
 
 
 
@@ -32,7 +33,6 @@ import {MatIconModule} from '@angular/material/icon';
     TablesComponent,
     ForgotPasswordComponent,
     ResetPasswordComponent,
-    RegisterComponent,
     LoginComponent,
     FooterComponent,
     HeaderComponent,
@@ -48,7 +48,9 @@ import {MatIconModule} from '@angular/material/icon';
     MatMenuModule,
     MatDividerModule,
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatInputModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

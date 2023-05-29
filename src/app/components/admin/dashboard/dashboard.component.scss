@@ -1,0 +1,131 @@
+// .page{
+//     padding: 1rem;
+//  &__box{
+//     min-height: 120px;
+//     margin: 0 -1rem;
+//  }
+//  &__content{
+//     min-height: calc(100vh - 160px);
+//     border-radius: 10px;
+//     background-color: white;
+//     color: #303031;
+//  }
+// }
+
+p{
+    color: #848484;
+}
+
+h5{
+    color: #303031;
+}
+
+.insights{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.insights > div {
+    background: #ffffff ;
+    padding: var(--card-padding);
+    border-radius: var( --border-radius-sm);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.insights > div:hover{
+    box-shadow: none;
+}
+
+.circle {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #D9DBF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle span {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+  }
+
+.insights > div span{
+background: #D9DBF7;
+ padding: 0.5rem;
+ border-radius: 50%;
+ color: var(--color-primary);
+ font-size: 2rem;
+}
+
+.insights > div .middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.insights h3{
+    margin: 1rem 0 0.6rem;
+    font-size: 1rem;
+}
+
+.insights.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.insights.small{
+  margin-top: 1.6rem;
+  }
+
+.campaigns{
+   margin-top: 2rem;
+   padding: 1.5rem;
+}
+
+.campaigns h2 {
+    margin-bottom: 1rem;
+ }
+.campaigns table{
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: var(--card-border-radius);
+    padding:var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+.campaigns table:hover{
+ box-shadow: none;
+}
+
+table thead tr{
+    height: 3.5rem;
+    }
+
+
+
+table tbody td{
+height: 3.5rem;
+border-bottom: 1px solid var(--color-light);
+color: var(--color-dark-variant);
+}
+
+table tbody tr:last-child td{
+  border: none;
+    }
+
+    .campaigns a{
+        text-align: center;
+        display: block;
+        margin: 1rem auto;
+        color: var(--color-primary);
+        text-decoration: none;
+       }

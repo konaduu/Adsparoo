@@ -1,26 +1,58 @@
-// .topnav {
-//     width: 100%;
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     overflow: hidden;
-//     background-color: white;
-//     border-bottom: 1px solid gray;
-//   }
 
-//   .topnav a {
-//     float: left;
-//     text-align: center;
-//     font-size: 17px;
-//     font-weight: bold;
-//     padding: 14px 16px;
-//   }
+.input-group .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+  }
 
-//   .menu{
-//     float: right;
-//     margin-right: 10px;
-//     margin-top: 10px;
-//     font-weight: bold;
-//     font-size: 30px;
-//     cursor: pointer;
-//   }
+.top{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.top .profile{
+    display: flex;
+    gap: 2rem;
+    text-align: right ;
+    
+}
+
+.notification-bell{
+    background-color: transparent;
+}
+
+
+mat-toolbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #FFFFFF;
+    border-bottom: 0.5px solid #EAEAEA;
+}
+
+
+// button{
+//     border: 0;
+//     outline: none;
+//     background: transparent;
+// }
+
+// .user{
+//     font-size: 14px;
+// }
+
+// .user-image{
+//     border-radius: 50%;
+//     width: 50px;
+//     height: 50px;
+// }
+// .user-image-icon{
+//     height: 18px;
+//     font-size: 16px;
+// }
+
+
+
